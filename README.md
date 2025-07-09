@@ -56,3 +56,20 @@ This project:
   - UpSampling → SeparableConv2D(64) → SeparableConv2D(32) → Conv2D(3 filters)
 
 ---
+
+## 📊 Quantitative Results
+
+| Model               | SSIM  |
+|---------------------|-------|
+| Restormer (Teacher) | 0.875 |
+| Student       | 0.803 |
+
+---
+
+## 🖼️ Visual Quality
+
+- Blur was significantly reduced.
+- Fine details and sharp edges were preserved.
+- Performance drops on images with **heavy motion blur**.
+
+---
